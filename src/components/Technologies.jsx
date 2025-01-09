@@ -40,7 +40,7 @@ const technologies = () => {
         <RiReactjsLine className="text-7xl text-cyan-400"/>
         </motion.div>
         <motion.div 
-        variants={iconvariants(6)}
+        variants={iconvariants(4)}
         initial="initial"
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
@@ -54,7 +54,7 @@ const technologies = () => {
         <SiMongodb className="text-7xl text-lime-800"/>
         </motion.div>
         <motion.div 
-        variants={iconvariants(4.5)}
+        variants={iconvariants(4)}
         initial="initial"
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
@@ -68,7 +68,7 @@ const technologies = () => {
         <LuBrainCircuit className="text-7xl text-red-400"/>
         </motion.div>
         <motion.div 
-        variants={iconvariants(1)}
+        variants={iconvariants(4)}
         initial="initial"
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
