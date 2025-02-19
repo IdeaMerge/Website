@@ -8,7 +8,7 @@ const Projects = () => {
       whileInView={{opacity:1,y:0}}
       initial={{opacity:0,y:-100}}
       transition={{duration:0.5}}
-      className="my-20 text-center text-4xl">Conference & Journal Paper Services</motion.h1>
+      className="my-20 text-center text-4xl font-bold">Services We Provide</motion.h1>
         <div>
                 <div className="mb-8 flex flex-wrap text-2xl lg:justify-center">
                     <motion.div 
@@ -18,15 +18,15 @@ const Projects = () => {
                     className="w-full max-w-xl lg:w-3/4">
                        <ol>
                         <li>
-                        Complete Reports, Presentations, and Documents for projects
+                        Mini and Major Projects
                             <ul className="text-sm"><li>We provide fully developed reports, PowerPoint presentations, and documents based on idea.</li></ul>
                         </li>
                         <li>
-                        Paper Modifications
+                        Conference and Journal Papers(writing and publication)
                             <ul className="text-sm"><li>Need changes or improvements to your existing paper? We’ll make the necessary revisions.</li></ul>
                         </li>
                         <li>
-                        Idea Development
+                        Idea Development and R&D
                             <ul className="text-sm"><li>Have an idea but lack the resources to develop it? We’ll turn your idea into a well-structured paper.</li></ul>
                         </li>
                         <li>
