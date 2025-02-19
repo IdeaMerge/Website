@@ -3,9 +3,9 @@ import project2 from "../assets/projects/project-2.jpeg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpeg";
 
-export const HERO_CONTENT = `I am a passionate developer passionate about applying my techincal knowledge in creating real world applications to solve practical problems.`;
+export const HERO_CONTENT = `You have a project idea but do not know how to build it? No worries we are here to help you and guide you through it.`;
 
-export const ABOUT_TEXT = `I am a dedicated developer with a passion for creating efficient and user-friendly applications. I have worked with a variety of technologies, including React, Node.js, MySQL, PostgreSQL, and MongoDB.I also have experience working on latest technologies such as GenAI and built several projects using Machine Learning Algorithms. I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `We guide you and help you build projectsin various domains such as machine learning,IOT,deep learning, NLP, renewable energy, Circuit design and a lot more Turn ideas into impactful projects along with conference and journal paper publications. Our expert team is dedicated to delivering top-tier writing and research services that help you shine in the academic and professional world.`;
 
 export const EXPERIENCES = [
   {
@@ -49,10 +49,6 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  phoneNo: "+91 7013447479 ",
-  address:"Vijayawada,India📍",
-  email: "kushalthandra@gmail.com",
-  linkedin: "https://www.linkedin.com/in/kushal-thandra-7a8",
-  github: "https://github.com/kushalthandra",
-  location: "India",
+  phoneNo: "+91 9666572895 ",
+  email: "helpdesk.write@gmail.com",
 };

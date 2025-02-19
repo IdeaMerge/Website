@@ -17,15 +17,15 @@ const Hero = () => {
                   variants={container(0)} 
                   initial="hidden"
                   animate="visible"
-                  className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl">
-                    Thandra Kushal Chakravarthy
+                  className="pb-16 text-6xl tracking-tight lg:mt-16 lg:text-8xl ">
+                    Idea Merge
                 </motion.h1>
                 <motion.span 
                  variants={container(1)} 
                  initial="hidden"
                  animate="visible"
-                className="bg-gradient-to-r from-white via-blue-700 to-slate-600 bg-clip-text text-3xl tracking-tight text-transparent">
-                    Software Engineer
+                className="bg-gradient-to-r from-white via-yellow-400 to-slate-600 bg-clip-text text-3xl tracking-tight text-transparent">
+                    You ideate, We Build.
                 </motion.span>
                 <motion.p 
                  variants={container(1)} 
@@ -34,6 +34,11 @@ const Hero = () => {
                 className="my-2 max-w-xl py-6 font-light tracking-tighter">
                     {HERO_CONTENT}
                 </motion.p>
+                <motion.button 
+                 initial={{y:100,opacity:0}}
+                 animate={{y:0,opacity:1}}
+                 transition={{duration:2,delay:1.5}}
+                className="bg-white w-40 rounded-xl text-black"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfcxJHGrqQrh4M3x6Evf_pNCabHDcw7orwteaoKtGwEPXEBHQ/viewform">Request</a></motion.button>
             </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
